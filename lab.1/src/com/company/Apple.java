@@ -6,7 +6,7 @@ public class Apple extends Food {
     private String size;
     @Override
     public void consume(){
-        System.out.println(this + "съедено");
+        System.out.println(this + " съедено");
     }
 
     public String getSize() {
